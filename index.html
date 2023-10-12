@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="icon" href="./images/logo-favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<!-- HERO OR HEADER SECION -->
+<div class="header_ container-fluid d-flex">
+  <div class="container-xl m-auto">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="hcarousel_ carousel-inner rounded-top">
+        <div class="carousel-item active" data-bs-interval="1500">
+          <img src="./images/newUpdateTavern.png" class="himage_ d-block w-100" alt="dbhomeback">
+          <div class="carousel-caption w-100 d-flex justify-content-center align-items-center flex-column">
+            <img src="./images/dblogo.png" class="w-50">
+            <p class="font-monospace w-100 d-none d-md-block jim-cap">Where The Danger Awaits for you  </p>
+            <button class="herobtn_ btn btn-danger fw-bolder text-dark btn-sm px-md-4 py-md-2 mt-4 mt-lg-3"
+            onclick="window.open('https://dungeon-born.com')">PLAY NOW</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="./images/enterHomes.jpg" class="himage_ d-block w-100" alt="dbtuthunting">
+          <div class="carousel-caption w-100 d-flex justify-content-center align-items-center flex-column">
+            <img src="./images/dblogo.png" class="w-50">
+            <p class="font-monospace w-100 d-none d-md-block jim-cap">Where The Danger Awaits for you</p>
+            <button class="herobtn_ btn btn-danger fw-bolder text-dark btn-sm px-md-4 py-md-2 mt-4 mt-lg-3"
+            onclick="window.open('https://dungeon-born.com')">PLAY NOW</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="./images/discoverDungeons.jpg" class="himage_ d-block w-100" alt="frontPDb">
+          <div class="carousel-caption w-100 d-flex justify-content-center align-items-center flex-column">
+            <img src="./images/dblogo.png" class="w-50">
+            <p class="font-monospace w-100 d-none d-md-block jim-cap">Where The Danger Awaits for you</p>
+            <button class="herobtn_ btn btn-danger fw-bolder text-dark btn-sm px-md-4 py-md-2 mt-4 mt-lg-3"
+            onclick="window.open('https://dungeon-born.com')">PLAY NOW</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+        <img src="./images/sampleOne.jpg" class="himage_ d-block w-100" alt="frontPDb">
+        <div class="carousel-caption w-100 d-flex justify-content-center align-items-center flex-column">
+          <img src="./images/dblogo.png" class="w-50">
+          <p class="font-monospace w-100 d-none d-md-block jim-cap">Where The Danger Awaits for you</p>
+          <button class="herobtn_ btn btn-danger fw-bolder text-dark btn-sm px-md-4 py-md-2 mt-4 mt-lg-3"
+          onclick="window.open('https://dungeon-born.com')">PLAY NOW</button>
+        </div>
+      </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- COMPATIBLE SECTION -->
+<div class="container-fluid d-flex">
+  <div class="threecol_ container-xl mx-auto justify-content-center row row-gap-4">
+    <hr class="text-info mt-3">
+    <!-- the box -->
+    <div class="hidden compatible col-xl-3 offset-xl-0 col-md-5 offset-md-4 col-sm-8 offset-sm-2 py-3 bg-white rounded d-flex justify-content-center column-gap-3" >
+      <i class="fa-brands fa-browser text-primary fs-1"></i>
+      <div>
+        <h5>Play On Your Browser</h5>
+        <p>The Game plays on browser, No download and installation required</p>
+      </div>
+    </div>
+
+    <hr class="text-info mt-3">
+  </div>
+</div>
+
+<!-- ABOUT SECTION -->
+<div class="container-fluid d-flex mt-5">
+  <div class="container-xl">
+    <div class="about_  container-xl d-flex flex-column align-items-center justify-content-center row-gap-4">
+      <h1 class="text-info hidden anumationabout">Game Overview</h1>
+      <h5 class="text-center hidden anumationabout"><i class="text-white">
+        Inspired by reincarnation anime series, A game where you got reincarnated and left with responsibility to explore, travel and face many foe. A game where you risk and die only once. With many places to explore and add recources to gather and craft.
+      </i></h5>
+      <button class="btnLearn hidden anumationabout border-info btn btn-transparent text-white rounded-0" data-bs-toggle="modal" data-bs-target="#LearnMore">Learn more</button>
+ 
+      <div class="modal fade" id="LearnMore" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-md modal-dialog-centered">
+          <div class="modal-content rounded-0">
+            <i type="button" class="fa-solid fa-xmark ms-auto mt-1 me-1" style="color: #ffffff;" data-bs-dismiss="modal" aria-label="Close"></i>
+            <div class="modal-body">
+              <p class="text-center px-3">
+                The Game does not support automatic quests that you will sit and watch as your character do everything, The game is only for real adventurers who loves risk and real adventure
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- VIDEO SECTION -->
+<div class="container-fluid my-5">
+  <div class="video_container container-xl">
+    <div class="video_ text-white">
+    <div class="vidcontainer">
+      <div class="vidcont rounded-circle">
+        <video autoplay muted loop class="hiddenn"> 
+          <source src="./video/sampleVid.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div  class="vid-text">
+      <h5 class="MULTIPLE">MULTIPLE RACES TO</h5>
+      <h1 class="play"><i>PLAY</i></h1>
+    </div>
+    <div class="vid-text2 px-3">
+      <h5 class="hidden">Choose A Race</h5>
+      <p class="hidden">In this game there are different types of races, There is elves who are fast and reliable with their swords,
+        A demon who are enriched with mana and magic, Lastly Divines who are currently discovered by their use of holy magic. Each races have their own strengths.
+        By default player starts with human race. You can change your race by using a forbidden scroll.
+      </p>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- TOP WEAPONS SECTION -->
+<div class="container-fluid my-5">
+  <div class="container-xxl ">
+    <div class="infinite_container container-xl">
+      <h2 class="text-center text-white mt-3 mb-5">Spears & Swords</h2>
+       <div class=" infinite-slideshow column-gap-3">
+          <div class="slide">
+            <div class="border rounded">
+              <img src="./images/bladefury.png" alt="bladefury">
+            </div>
+          </div>
+          <div class="slide">
+            <div class="border rounded">
+              <img src="./images/dragonSpear.png" alt="dragonSpear">
+            </div>
+          </div>
+          <div class="slide">
+            <div class="border rounded">
+              <img src="./images/drakfoid.png" alt="drakfoid">
+            </div>
+          </div>
+          <div class="slide">
+            <div class="border rounded">
+              <img src="./images/grimthor.png" alt="grimthor">
+            </div>
+          </div>
+          <div class="slide">
+            <div class="border rounded">
+              <img src="./images/majesty.png" alt="majesty">
+            </div>
+          </div>
+          <div class="slide">
+            <div class="border rounded">
+              <img src="./images/masfinaBlade.png" alt="masfinaBlade">
+            </div>
+          </div>
+          <div class="slide">
+            <div class="border rounded">
+              <img src="./images/zviadi.png" alt="zviadi">
+            </div>
+          </div>
+      </div>
+    </div>    
+  </div>
+</div>
+<div class="story-container">
+  <h2 class="text-center text-white mt-3 mb-5">Overview</h2>
+  <div class="story-p-bx">
+      <p class="story-cap">
+          Being reincarnated in a different world where magic exist.
+          Awaken to a fresh start in a fantasy realm, where the Gods have chosen you to be their hero.
+  
+          The villagers where you are reborn has many things to offer. They lead you to your adventurous life.
+          They support you with instructions and starting tools. With their guidelines you can easily prevent dying from the game.
+  
+          A person named Nick is one of the descendants that will help you in this journey.
+          You will embark in this new environment, Gain strength, learn new skills and conquer dungeons.
+  
+          As you go further in this new realm, You will face many powerful foes. 
+          Many monsters are causing chaos now that there is no God that can stop them.
+      </p>
+      <p class="story-cap">
+          The Gods have chosen you to defeat this monster and defeat the traitor that trap them into the void.
+          A certain someone that is powerful enough to shake the balance of this world.
+          defeating this person can help the Gods rebuild their stolen strength so they can escape from the void.
+          
+          It is up to the young heroes who has been reborn in this world.
+          Will they Succeed Or Will They Die ...
+      </p>
+      <div class="credits-cont">
+          <div class="person-info-bx">
+              <h3 class="person-name">Rafael So</h3>
+              <h5 class="role-title">Developer & Creator</h3>
+          </div>
+          <div class="person-info-bx">
+            <h3 class="person-name">Juhariz Pandog & Kheil Artimist</h3>
+            <h5 class="role-title">2d Design & Artist</h3>
+          </div>
+      </div>
+  </div>
+  <img class="cancel-parent home-cancel" src="./images/UI/contBtnImg.png"/>
+</div>
+<!-- FOOTER AND FORM-->
+<div class="footer_ container-fluid text-white">
+  <div class="container-xl py-4">
+    <div class="row row-gap-5">
+      <div class="col-md-3">
+        <h4 class="text-white text-center text-md-start mb-5">Contact</h4>
+        <ul class="list-group hidden d-flex flex-row justify-content-center row-gap-4 flex-md-column column-gap-3 ">
+          <li class="flex-column flex-md-row">
+            <i class="fa-solid fa-envelope " style="color: #ffffff;"></i>
+            <p class="my-auto">zashiso214@mail.com</p>
+          </li>
+          <span class="d-sm-flex d-md-none my-auto">|</span>
+          <li class="flex-column flex-md-row">
+            <i class="fa-solid fa-phone " style="color: #ffffff;"></i>
+            <p class="my-auto">+971 586 931 534</p>
+          </li>
+          <li class="flex-column flex-md-row">
+            <a href="https://discord.gg/UnaWrrMz" class="my-auto">Discord Group</a>
+          </li>
+          <span class="d-sm-flex d-md-none my-auto">|</span>          
+        </ul>
+      </div>
+
+      <div class="col-md-5 d-flex flex-column align-items-center">
+        <img class="mb-4" src="./images/dblogo.png" width="200" height="50">
+        <p class="hidden text-center text-md-start">
+          There is no stopping you for experiencing a real adventure.
+        </p>
+        <p class="hidden text-center text-md-start">
+          You just have to start
+        </p>
+
+      </div>
+      
+    </div>
+    <hr class="text-info">
+    <div class="d-flex">
+      <small class="text-white mt-2 mx-auto">© 2023 DungeonBorn | All Rights Reserved</small>
+    </div>
+    
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/72d342fbd8.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./assets/script.js"></script>
+
+</body>
+<link rel="stylesheet" type="text/css" href="./assets/style.css">
+</html>
